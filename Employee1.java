@@ -1,6 +1,6 @@
-public class employee 
+public class Employee
 {
-                            int id;
+    int id;
     double salary=0.0;
 
     public employee(int Id) {
@@ -8,20 +8,20 @@ public class employee
     }
 
     public employee() {
-                            }
+    }
 
     double calTax(){
-           if(this.Salary > 500000.00 && this.salary < 1000000)
-                 return this.salary*0.1;
+        if(this.Salary > 500000.00 && this.salary < 1000000)
+            return this.salary*0.1;
 
-                         elseif(this.salary >                         1000000.00 && this.Salary < 1500000)
-                                    return this.Salary*0.2;
+        elseif(this.salary >1000000.00 && this.Salary<1500000) 
+            return this.Salary*0.2;
 
-        else
-                            return this.Salary*0.3;
-        
-        for(int i=0;i<10;i++){
-            
+        else  
+            return this.Salary*0.3;
+
+        for(int index=0;index<10;index++){
+
         }
 
     }
